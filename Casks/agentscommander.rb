@@ -1,9 +1,9 @@
 cask "agentscommander" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.39.0"
-  sha256 arm:   "d50c165b1ff6c7b651a3d72dfb4d0636ade75597f4bdb15874a19759a5c36f82",
-         intel: "3e23c611e8e5e20cb791e5dd3c777ff1979aba2b1391672b7ecb3e499b2eaae8"
+  version "0.41.0"
+  sha256 arm:   "900f18b9fdec802c8c5d9e830242a2d0d538b0526f25b3980d894e933bc30b5d",
+         intel: "d434a292211eabb7101605a9d25f1350454b5f35885b44e8d0541112a5903304"
 
   url "https://github.com/mblua/AgentsCommander/releases/download/v#{version}/Agents.Commander_#{version}_#{arch}.dmg"
   name "Agents Commander"
